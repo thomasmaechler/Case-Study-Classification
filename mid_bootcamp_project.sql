@@ -1,23 +1,69 @@
 # SQL Questions - Classification
 
 
-1. Create a database called `credit_card_classification`.
-2. Create a table `credit_card_data` with the same columns as given in the csv file. Please make sure you use the correct data types for each of the columns.
-3. Import the data from the csv file into the table. Before you import the data into the empty table, make sure that you have deleted the headers from the csv file. To not modify the original data, if you want you can create a copy of the csv file as well. Note you might have to use the following queries to give permission to SQL to import data from csv files in bulk:
+# 1. Create a database called `credit_card_classification`.
+drop database if exists credit_card_classification ;
+create database credit_card_classification;
 
-```sql
-SHOW VARIABLES LIKE 'local_infile'; -- This query would show you the status of the variable ‘local_infile’. If it is off, use the next command, otherwise you should be good to go
+# 2. Create a table `credit_card_data` with the same columns as given in the csv file. 
+# Please make sure you use the correct data types for each of the columns.
+use credit_card_classification;
+drop table if exists credit_card_classification.credit_card_data;
+create table credit_card_data(
+credit_card_data_id int auto_increment not null,
+customer_number int default null, 
+offer_accepted varchar(5) default null,
+reward varchar(20),
+mailer_type varchar(10),
+income_level varchar(10),
+no_of_account_open int,
+overdraft_protection varchar(10),
+credit_card_rating varchar(10),
+no_of_credit_cards_held int,
+homes_owned int,
+household_size int,
+own_your_home varchar(10),
+average_balance float default null,
+q1_balance float default null,
+q2_balance float default null,
+q3_balance float default null,
+q4_balance float default null, 
+primary key (credit_card_data_id)
+);
 
+
+# 3. Import the data from the csv file into the table. 
+# Before you import the data into the empty table, make sure that you have deleted the headers from the csv file. 
+# To not modify the original data, if you want you can create a copy of the csv file as well. 
+# Note you might have to use the following queries to give permission to SQL to import data from csv files in bulk:
+
+SHOW VARIABLES LIKE 'local_infile'; -- This query would show you the status of the variable ‘local_infile’. 
+                                    -- If it is off, use the next command, otherwise you should be good to go
 SET GLOBAL local_infile = 1;
-```
+     
 
-4.  Select all the data from table `credit_card_data` to check if the data was imported correctly.
-5.  Use the _alter table_ command to drop the column `q4_balance` from the database, as we would not use it in the analysis with SQL. Select all the data from the table to verify if the command worked. Limit your returned results to 10.
-6.  Use sql query to find how many rows of data you have.
-7.  Now we will try to find the unique values in some of the categorical columns:
 
-    - What are the unique values in the column `Offer_accepted`?
-    - What are the unique values in the column `Reward`?
+# 4.  Select all the data from table `credit_card_data` to check if the data was imported correctly.
+select * from credit_card_data;
+
+
+# 5.  Use the _alter table_ command to drop the column `q4_balance` from the database, as we would not use it in the analysis with SQL. Select all the data from the table to verify if the command worked. Limit your returned results to 10.
+alter table credit_card_data 
+drop q4_balance;
+
+select * from credit_card_data;
+
+# 6.  Use sql query to find how many rows of data you have.
+select count(customer_number) from credit_card_data;
+
+# 7.  Now we will try to find the unique values in some of the categorical columns:
+
+    #- What are the unique values in the column `Offer_accepted`?
+    select count(distinct offer_accepted) from credit_card_data;
+    
+    # - What are the unique values in the column `Reward`?
+    select count(distinct reward) from credit_card_data;
+    
     - What are the unique values in the column `mailer_type`?
     - What are the unique values in the column `credit_cards_held`?
     - What are the unique values in the column `household_size`?
