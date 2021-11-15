@@ -83,12 +83,14 @@ select count(customer_number) from credit_card_data;
 	select count(distinct household_size) from credit_card_data;
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 37a385720a9d860a80f529fcfe588b147ebdc689
 # 8. Arrange the data in a decreasing order by the `average_balance` of the house. Return only the `customer_number` of the top 10 customers with the highest `average_balances` in your data.
 select customer_number from credit_card_data
 order by average_balance desc
 limit 10;
-
 
 # 9.  What is the average balance of all the customers in your data?
 select avg(average_balance) from credit_card_data;
