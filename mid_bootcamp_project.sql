@@ -83,10 +83,15 @@ select count(customer_number) from credit_card_data;
 	select count(distinct household_size) from credit_card_data;
 
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 # 8. Arrange the data in a decreasing order by the `average_balance` of the house. Return only the `customer_number` of the top 10 customers with the highest `average_balances` in your data.
 select customer_number from credit_card_data
 order by average_balance desc
 limit 10;
+
 
 # 9.  What is the average balance of all the customers in your data?
 select avg(average_balance) from credit_card_data;
@@ -133,14 +138,58 @@ SELECT income_level, round(avg (average_balance),2) as 'Average balance'
     GROUP BY no_of_account_open;
 
 # 11. Your managers are only interested in the customers with the following properties:
+    # - Credit rating medium or high
+    # - Credit cards held 2 or less
+    # - Owns their own home
+    # - Household size 3 or more
+select customer_number from credit_card_data
+where credit_card_rating in ('medium','high') 
+and no_of_credit_cards_held <= 2
+and own_your_home = 'yes'
+and  household_size >=3;
+    
+    
 
-    - Credit rating medium or high
-    - Credit cards held 2 or less
-    - Owns their own home
-    - Household size 3 or more
+# For the rest of the things, they are not too concerned. Write a simple query to find what are the options available for them? Can you filter the customers who accepted the offers here?
 
-    For the rest of the things, they are not too concerned. Write a simple query to find what are the options available for them? Can you filter the customers who accepted the offers here?
+# 12. Your managers want to find out the list of customers whose average balance is less than the average balance of all the customers in the database. Write a query to show them the list of such customers. You might need to use a subquery for this problem.
+select customer_number from credit_card_data
+where average_balance < (select avg(average_balance) from credit_card_data)
+order by average_balance desc;
 
+# 13. Since this is something that the senior management is regularly interested in, create a view of the same query.
+drop view if exists less_average_balance;
+create view less_average_balance as 
+select * from credit_card_data
+where average_balance < (select avg(average_balance) from credit_card_data)
+order by average_balance desc;
+
+
+# 14. What is the number of people who accepted the offer vs number of people who did not?
+select 
+distinct(select count(customer_number) from credit_card_data where offer_accepted = 'yes') as accepted_offers,
+(select count(customer_number) from credit_card_data where offer_accepted = 'no') as rejected_offers 
+from credit_card_data;
+
+
+# 15. Your managers are more interested in customers with a credit rating of high or medium. What is the difference in average balances of the customers with high credit card rating and low credit card rating?
+
+
+# 16. In the database, which all types of communication (`mailer_type`) were used and with how many customers?
+select mailer_type, count(customer_number) from credit_card_data
+group by mailer_type;
+
+# 17. Provide the details of the customer that is the 11th least `Q1_balance` in your database.
+select q1_balance from credit_card_data
+where q1_balance =  (select q1_balance from (select q1_balance from credit_card_data  order by q1_balance limit 11)s1 order by q1_balance desc limit 1)
+group by q1_balance;
+
+select q1_balance,customer_number from credit_card_data
+order by q1_balance ASC 
+limit 11;
+
+
+<<<<<<< Updated upstream
 12. Your managers want to find out the list of customers whose average balance is less than the average balance of all the customers in the database. Write a query to show them the list of such customers. You might need to use a subquery for this problem.
 
 
@@ -166,3 +215,5 @@ SELECT credit_card_rating, round(avg (average_balance),2) as 'Average balance'
 
 
 # 17. Provide the details of the customer that is the 11th least `Q1_balance` in your database.
+=======
+>>>>>>> Stashed changes
