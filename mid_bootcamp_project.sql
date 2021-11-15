@@ -9,8 +9,6 @@ create database credit_card_classification;
 # Please make sure you use the correct data types for each of the columns.
 use credit_card_classification;
 drop table if exists credit_card_classification.credit_card_data;
-
-
 create table credit_card_data(
 credit_card_data_id int auto_increment not null,
 customer_number int default null, 
@@ -43,12 +41,6 @@ SHOW VARIABLES LIKE 'local_infile'; -- This query would show you the status of t
 SET GLOBAL local_infile = 1;
 
 
-LOAD DATA LOCAL INFILE 'creditcardmarketing.csv' 
-INTO TABLE credit_card_data             
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n';
-
 
 # 4.  Select all the data from table `credit_card_data` to check if the data was imported correctly.
 select * from credit_card_data;
@@ -66,31 +58,16 @@ select count(customer_number) from credit_card_data;
 
 # 7.  Now we will try to find the unique values in some of the categorical columns:
 
-    # - What are the unique values in the column `Offer_accepted`?
+    #- What are the unique values in the column `Offer_accepted`?
     select count(distinct offer_accepted) from credit_card_data;
     
     # - What are the unique values in the column `Reward`?
     select count(distinct reward) from credit_card_data;
     
-    # - What are the unique values in the column `mailer_type`?
-	select count(distinct mailer_type) from credit_card_data;
-    
-    # - What are the unique values in the column `credit_cards_held`?
-	select count(distinct no_of_credit_cards_held) from credit_card_data;
+    - What are the unique values in the column `mailer_type`?
+    - What are the unique values in the column `credit_cards_held`?
+    - What are the unique values in the column `household_size`?
 
-    
-    # - What are the unique values in the column `household_size`?
-	select count(distinct household_size) from credit_card_data;
-
-
-# 8.  Arrange the data in a decreasing order by the `average_balance` of the house. Return only the `customer_number` of the top 10 customers with the highest `average_balances` in your data.
-
-
-# 9.  What is the average balance of all the customers in your data?
-select avg(average_balance) from credit_card_data;
-
-<<<<<<< Updated upstream
-=======
 # 8. Arrange the data in a decreasing order by the `average_balance` of the house. Return only the `customer_number` of the top 10 customers with the highest `average_balances` in your data.
 select customer_number from credit_card_data
 order by average_balance desc
@@ -100,15 +77,14 @@ limit 10;
 # 9.  What is the average balance of all the customers in your data?
 
 
->>>>>>> Stashed changes
-# 10. In this exercise we will use simple group by to check the properties of some of the categorical variables in our data. Note wherever `average_balance` is asked, please take the average of the column `average_balance`: <!-- 🚨🚨🚨 @himanshu - can we rephrase this? -->
+# 10. In this exercise we will use simple group by to check the properties of some of the categorical variables in our data. Note wherever `average_balance` is asked, please take the average of the column `average_balance`: <!-- 🚨🚨🚨 @himanshu - can we rephrase this?
 
     - What is the average balance of the customers grouped by `Income Level`? The returned result should have only two columns, income level and `Average balance` of the customers. Use an alias to change the name of the second column.
     - What is the average balance of the customers grouped by `number_of_bank_accounts_open`? The returned result should have only two columns, `number_of_bank_accounts_open` and `Average balance` of the customers. Use an alias to change the name of the second column.
     - What is the average number of credit cards held by customers for each of the credit card ratings? The returned result should have only two columns, rating and average number of credit cards held. Use an alias to change the name of the second column.
     - Is there any correlation between the columns `credit_cards_held` and `number_of_bank_accounts_open`? You can analyse this by grouping the data by one of the variables and then aggregating the results of the other column. Visually check if there is a positive correlation or negative correlation or no correlation between the variables.
 
-# 11. Your managers are only interested in the customers with the following properties:
+11. Your managers are only interested in the customers with the following properties:
 
     - Credit rating medium or high
     - Credit cards held 2 or less
