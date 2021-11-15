@@ -33,7 +33,6 @@ q4_balance float default null,
 primary key (credit_card_data_id)
 );
 
-
 # 3. Import the data from the csv file into the table. 
 # Before you import the data into the empty table, make sure that you have deleted the headers from the csv file. 
 # To not modify the original data, if you want you can create a copy of the csv file as well. 
@@ -42,7 +41,13 @@ primary key (credit_card_data_id)
 SHOW VARIABLES LIKE 'local_infile'; -- This query would show you the status of the variable ‘local_infile’. 
                                     -- If it is off, use the next command, otherwise you should be good to go
 SET GLOBAL local_infile = 1;
-     
+
+
+LOAD DATA LOCAL INFILE 'creditcardmarketing.csv' 
+INTO TABLE credit_card_data             
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n';
 
 
 # 4.  Select all the data from table `credit_card_data` to check if the data was imported correctly.
@@ -53,7 +58,8 @@ select * from credit_card_data;
 alter table credit_card_data 
 drop q4_balance;
 
-select * from credit_card_data;
+select * from credit_card_data
+limit 10;
 
 # 6.  Use sql query to find how many rows of data you have.
 select count(customer_number) from credit_card_data;
@@ -83,6 +89,18 @@ select count(customer_number) from credit_card_data;
 # 9.  What is the average balance of all the customers in your data?
 select avg(average_balance) from credit_card_data;
 
+<<<<<<< Updated upstream
+=======
+# 8. Arrange the data in a decreasing order by the `average_balance` of the house. Return only the `customer_number` of the top 10 customers with the highest `average_balances` in your data.
+select customer_number from credit_card_data
+order by average_balance desc
+limit 10;
+
+
+# 9.  What is the average balance of all the customers in your data?
+
+
+>>>>>>> Stashed changes
 # 10. In this exercise we will use simple group by to check the properties of some of the categorical variables in our data. Note wherever `average_balance` is asked, please take the average of the column `average_balance`: <!-- 🚨🚨🚨 @himanshu - can we rephrase this? -->
 
     - What is the average balance of the customers grouped by `Income Level`? The returned result should have only two columns, income level and `Average balance` of the customers. Use an alias to change the name of the second column.
