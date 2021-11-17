@@ -51,3 +51,20 @@ Then I divided the data into train and test like 70-30 percentages.
 After I get 79% accuracy score for that model, because it is too good for a made-up limited data, I suspected about data imbalance.
 Examining confusion matrix showed me that actually my model didn't do any good job for predicting.
 To deal with this problem, some sampling methods were applied."
+
+
+
+Next Steps
+
+
+Combination of sampling methods will be applied.
+The steps above will be applied for a different combination of columns.
+
+
+
+Useful Links & Notes
+
+
+I added the sakila-db for whom want to dive into it.
+This link can be used to see the lab questions as a guideline for our purpose.
+This is my jupyter notebook for detailed explanations and the code itself.
