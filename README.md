@@ -17,7 +17,7 @@ We want to be able to predict which client will accept an offer or not using ban
 
 - [Next Steps](https://github.com/thomasmaechler/Case-Study-Classification#Next-Steps)
 
-- [Useful Links](https://github.com/thomasmaechler/Case-Study-Classification#Useful-Links-and-Notes)
+- [Useful Links and Notes](https://github.com/thomasmaechler/Case-Study-Classification#Useful-Links-and-Notes)
 
 
 
