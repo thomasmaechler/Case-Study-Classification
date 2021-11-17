@@ -10,13 +10,14 @@ We want to be able to predict which client will accept an offer or not using ban
 
 
 
+
 Table of Contents
 
-Data Question & Methodology
+[Data Question & Methodology](https://github.com/thomasmaechler/Case-Study-Classification/edit/main/README.md#Data Question & Methodology)
 
-Next Steps
+[Next Steps](url)
 
-Useful Links
+[Useful Links](url)
 
 
 
@@ -64,6 +65,10 @@ The steps above will be applied for a different combination of columns.
 
 Useful Links & Notes
 
+I added the Bank database for whom want to dive into it.
+PDF tableau
+SQL link
+This is our jupyter notebook for detailed explanations and the code itself.
 
 I added the sakila-db for whom want to dive into it.
 This link can be used to see the lab questions as a guideline for our purpose.
