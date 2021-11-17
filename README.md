@@ -1,5 +1,5 @@
 # Case-Study-Classification
-Mid-Project
+Mid-Bootcamp-Project
 
 by Ümmühan Demir and Thomas Maechler November 2021
 
