@@ -3,7 +3,7 @@ Mid-Bootcamp-Project
 
 by Ümmühan Demir and Thomas Maechler November 2021
 
-We want to be able to predict which client will accept an offer or not using bank database.📈💰💸
+We want to be able to predict which client will accept credit card offers. 📈💰💸
 
 ![Picture](banking-project.jpeg)
 
@@ -21,11 +21,10 @@ We want to be able to predict which client will accept an offer or not using ban
 
 
 
-## Data Question & Methodology
+## Data Question
 
-This week we are working on the Bank database mainly to answer the question: which client will accept an offer or not ? 
-The answer of this question would be binary, either 1(yes, it will be accepted) or 0(no, it will be not accepted). 
-To get that end logistic regression will be used. My methodology to approach this question is as following so far(will be updated when next steps are processed one by one):
+The task is to build a model that will provide insight into why some bank customers accept credit card offers. There are also other potential areas of opportunities that the bank wants to understand from the data.
+
 
 
 1 - We tried to visualize how the data looks like in SQL Workbench.
