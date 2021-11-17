@@ -21,7 +21,7 @@ Table of Contents
 
 
 
-Data Question & Methodology
+# Data Question & Methodology
 
 This week we are working on the Bank database mainly to answer the question: which client will accept an offer or not ? 
 The answer of this question would be binary, either 1(yes, it will be accepted) or 0(no, it will be not accepted). 
