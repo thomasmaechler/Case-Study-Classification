@@ -15,9 +15,9 @@ We want to be able to predict which client will accept an offer or not using ban
 
 - [Data Question & Methodology](https://github.com/thomasmaechler/Case-Study-Classification#Data-Question-&-Methodology)
 
-- [Next Steps](url)
+- [Next Steps](https://github.com/thomasmaechler/Case-Study-Classification#Next-Steps)
 
-[Useful Links](url)
+- [Useful Links](url)
 
 
 
@@ -55,7 +55,7 @@ To deal with this problem, some sampling methods were applied."
 
 
 
-Next Steps
+## Next Steps
 
 
 Combination of sampling methods will be applied.
@@ -63,7 +63,7 @@ The steps above will be applied for a different combination of columns.
 
 
 
-Useful Links & Notes
+## Useful Links & Notes
 
 I added the Bank database for whom want to dive into it.
 PDF tableau
