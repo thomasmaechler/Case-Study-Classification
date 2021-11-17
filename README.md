@@ -17,7 +17,7 @@ We want to be able to predict which client will accept an offer or not using ban
 
 - [Next Steps](https://github.com/thomasmaechler/Case-Study-Classification#Next-Steps)
 
-- [Useful Links](https://github.com/thomasmaechler/Case-Study-Classification#Useful-Links)
+- [Useful Links](https://github.com/thomasmaechler/Case-Study-Classification#Useful-Links-and-Notes)
 
 
 
@@ -63,7 +63,7 @@ The steps above will be applied for a different combination of columns.
 
 
 
-## Useful Links & Notes
+## Useful Links and Notes
 
 I added the Bank database for whom want to dive into it.
 PDF tableau
