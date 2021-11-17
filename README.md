@@ -13,7 +13,7 @@ We want to be able to predict which client will accept an offer or not using ban
 
 Table of Contents
 
-[Data Question & Methodology](https://github.com/thomasmaechler/Case-Study-Classification/edit/main/README.md#Data Question & Methodology)
+[Data Question & Methodology](https://github.com/thomasmaechler/Case-Study-Classification/edit/main/README.md#DataQuestion&Methodology)
 
 [Next Steps](url)
 
