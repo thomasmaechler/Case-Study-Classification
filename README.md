@@ -68,11 +68,11 @@ We want to be able to predict which client will **accept** credit card offers. ð
   - Categorical columns converted into numerical by using **pd.get_dummies()**. 
   - After Concatanating scaled numerical columns and now-numeric categorical columns, we were ready to apply some models.
   - We applied five models on with/without outliers. As it was an imbalanced data, we had to implement sampling methods.
-    -- Model 1: Logistic Regression
-    -- Model 2: Logistic Regression + SMOTE
-    -- Model 3: Logistic Regression + Tomek Links
-    -- Model 4: Logistic Regression + SMOTE + Tomek Links 
-    -- Model 5: Logistic Regression + KNN Classifier
+    * Model 1: Logistic Regression
+    * Model 2: Logistic Regression + SMOTE
+    * Model 3: Logistic Regression + Tomek Links
+    * Model 4: Logistic Regression + SMOTE + Tomek Links 
+    * Model 5: Logistic Regression + KNN Classifier
  - We evaluated the results by looking at confusion matrix, AUC scores and F1 scores to decide which model would be the best at predicting offer responses.
 
   
