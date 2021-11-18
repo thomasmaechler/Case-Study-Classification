@@ -13,11 +13,13 @@ We want to be able to predict which client will accept credit card offers. ðŸ“ˆð
 
 ## Table of Contents
 
-- [Data Question & Methodology](https://github.com/thomasmaechler/Case-Study-Classification#Data-Question-&-Methodology)
 
-- [Next Steps](https://github.com/thomasmaechler/Case-Study-Classification#Next-Steps)
-
-- [Useful Links and Notes](https://github.com/thomasmaechler/Case-Study-Classification#Useful-Links-and-Notes)
+- [Project Brief](https://github.com/thomasmaechler/class_lab_assignment#Project-Brief)
+- [Data](https://github.com/thomasmaechler/class_lab_assignment#Data)
+- [Process](https://github.com/thomasmaechler/class_lab_assignment#Process)
+- [Tools](https://github.com/thomasmaechler/class_lab_assignment#Tools)
+- [Next Step](https://github.com/thomasmaechler/class_lab_assignment#Tools)
+- [Key Take Aways](https://github.com/thomasmaechler/class_lab_assignment#Key-Take-Aways)
 
 
 
