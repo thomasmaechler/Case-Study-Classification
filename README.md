@@ -51,6 +51,9 @@ We want to be able to predict which client will **accept** credit card offers. ð
 
 - 3 - After understanding better how the data looks like, we started to manipulate the data in Python through this process: 
 
+<img width="461" alt="Screenshot 2021-11-18 at 14 56 12" src="https://user-images.githubusercontent.com/90766942/142428776-2e0dd4b0-d0a8-4b8f-9606-54d19facf517.png">
+
+
   - After we read our data in **Python**, as we had already seen in **Tableau**, it was an imbalanced data so it was noted that we had to be careful about minority class.
   - Then started to exploratory data analysis (EDA). 
   - First standardized column names were obtained to make coding easier later.
