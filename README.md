@@ -14,24 +14,39 @@ We want to be able to predict which client will accept credit card offers. ðŸ“ˆð
 ## Table of Contents
 
 
-- [Project Brief](https://github.com/thomasmaechler/class_lab_assignment#Project-Brief)
-- [Data](https://github.com/thomasmaechler/class_lab_assignment#Data)
-- [Process](https://github.com/thomasmaechler/class_lab_assignment#Process)
-- [Tools](https://github.com/thomasmaechler/class_lab_assignment#Tools)
-- [Next Step](https://github.com/thomasmaechler/class_lab_assignment#Tools)
-- [Key Take Aways](https://github.com/thomasmaechler/class_lab_assignment#Key-Take-Aways)
+- [Project Brief](https://github.com/thomasmaechler/Case-Study-Classification#Project-Brief)
+- [Data](https://github.com/thomasmaechler/Case-Study-Classification#Data)
+- [Process](https://github.com/thomasmaechler/Case-Study-Classification#Process)
+- [Tools](https://github.com/thomasmaechler/Case-Study-Classification#Tools)
+- [Next Step](https://github.com/thomasmaechler/Case-Study-Classification#Tools)
+- [Key Take Aways](https://github.com/thomasmaechler/Case-Study-Classification#Key-Take-Aways)
 
 
 
-## Data Question
+## Project Brief
 
-The task is to build a model that will provide insight into why some bank customers accept credit card offers. There are also other potential areas of opportunities that the bank wants to understand from the data.
+Scenario: We are working as a risk analyst with a bank. Apart from the other banking and loan services, the bank also provides credit card services that are a very important source of revenue for the bank. The bank wants to understand the demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card.
+
+
+Objective: Build a model that will provide insight into why some bank customers accept credit card offers. There are also other potential areas of opportunities that the bank wants to understand from the data.
 
 
 
-1 - We tried to visualize how the data looks like in SQL Workbench.
+## Data 
 
-2 - We used Tableau to get some graphs to better understand how the data is set. 
+The data set: 18,000 current bank customers in the study. 
+
+Features: Customer Number | Offer Accepted | Mailer Type | Income Level | Bank Accounts Open | Overdraft Protection | Credit Rating  | Credit Cards Held | Homes Owned | Household Size | Own Your Home | Average Balance | Balance | Q1 Balance | Q2 Balance | Q3 Balance | Q4 Balance
+
+
+
+
+##Process: 
+
+
+1 - We tried to visualize how the data looks like in [SQL Workbench](url).
+
+2 - We used [Tableau](url) to get some graphs to better understand how the data is set. 
 
 3 - After understanding better how the data looks like, we started to manipulate the data in python thru this process: 
 
@@ -46,31 +61,23 @@ The task is to build a model that will provide insight into why some bank custom
 
 
   
+## Tools 
 
-"Next I created the target column by querying whether the film is rented last month or not. This can be done on mySql workbench or by defining a function in Python.
-After concatanating the now-all-numerical columns, I applied logistic regression to that data.
-Then I divided the data into train and test like 70-30 percentages.
-After I get 79% accuracy score for that model, because it is too good for a made-up limited data, I suspected about data imbalance.
-Examining confusion matrix showed me that actually my model didn't do any good job for predicting.
-To deal with this problem, some sampling methods were applied."
-
+Database: MySQLWorkbench 
+Vizualizations: Tableau / Seaborn / matplotlib
+Code: Jupyter Notebook
 
 
 ## Next Steps
 
-
-Combination of sampling methods will be applied.
-The steps above will be applied for a different combination of columns.
+- We could have add some data or features to improve the model
+- Maybe using different other model 
 
 
 
 ## Useful Links and Notes
 
 I added the Bank database for whom want to dive into it.
-PDF tableau
-SQL link
-This is our jupyter notebook for detailed explanations and the code itself.
-
-I added the sakila-db for whom want to dive into it.
-This link can be used to see the lab questions as a guideline for our purpose.
-This is my jupyter notebook for detailed explanations and the code itself.
+[PDF tableau](url)
+[SQL link](url)
+This is our [jupyter notebook](url) for detailed explanations and the code itself.
