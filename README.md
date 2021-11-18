@@ -98,7 +98,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
 
 ## Useful Links about This Repo
 
-You can find the data used [here](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/Data%20Sources)
+You can find the data that we tried to analyze [here](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/Data%20Sources)
 
 [This](https://public.tableau.com/app/profile/thomas.maechler/viz/Case-Study-Classification_16369900928240/Dashboard1) leads you to the Tableau public workbook and the dashboard we created to get some insight about the data.
 
