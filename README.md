@@ -3,7 +3,7 @@ Mid-Bootcamp-Project
 
 by Ümmühan Demir and Thomas Maechler November 2021
 
-We want to be able to predict which client will accept credit card offers. 📈💰💸
+We want to be able to predict which client will **accept** credit card offers. 📈💰💸
 
 ![Picture](banking-project.jpeg)
 
@@ -25,18 +25,18 @@ We want to be able to predict which client will accept credit card offers. 📈�
 
 ## Project Brief
 
-*Scenario*: We are working as a risk analyst with a bank. Apart from the other banking and loan services, the bank also provides credit card services that are a very important source of revenue for the bank. The bank wants to understand the demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card.
+**Scenario**: We are working as a risk analyst with a bank. Apart from the other banking and loan services, the bank also provides credit card services that are a very important source of revenue for the bank. The bank wants to understand the demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card.
 
 
-Objective: Build a model that will provide insight into why some bank customers accept credit card offers. There are also other potential areas of opportunities that the bank wants to understand from the data.
+**Objective**: Build a model that will provide insight into why some bank customers accept credit card offers. There are also other potential areas of opportunities that the bank wants to understand from the data.
 
 
 
 ## Data 
 
-The data set: 18,000 current bank customers in the study. 
+**The data set**: 18,000 current bank customers in the study. 
 
-Features: Customer Number | Offer Accepted | Mailer Type | Income Level | Bank Accounts Open | Overdraft Protection | Credit Rating  | Credit Cards Held | Homes Owned | Household Size | Own Your Home | Average Balance | Balance | Q1 Balance | Q2 Balance | Q3 Balance | Q4 Balance
+**Features**: Customer Number | Offer Accepted | Mailer Type | Income Level | Bank Accounts Open | Overdraft Protection | Credit Rating  | Credit Cards Held | Homes Owned | Household Size | Own Your Home | Average Balance | Balance | Q1 Balance | Q2 Balance | Q3 Balance | Q4 Balance
 
 
 
@@ -63,9 +63,9 @@ Features: Customer Number | Offer Accepted | Mailer Type | Income Level | Bank A
   
 ## Tools 
 
-Database: MySQLWorkbench 
-Vizualizations: Tableau / Seaborn / matplotlib
-Code: Jupyter Notebook
+**Database**: MySQLWorkbench 
+**Vizualizations**: Tableau / Seaborn / matplotlib
+**Code**: Jupyter Notebook
 
 
 ## Next Steps
