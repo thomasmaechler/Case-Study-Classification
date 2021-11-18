@@ -46,7 +46,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
 ## Process: 
 
 
-- 1 - We tried to visualize how the data looks like in [SQL Workbench](url).
+- 1 - We tried to visualize how the data looks like in [SQL Workbench](https://github.com/thomasmaechler/Case-Study-Classification/blob/main/SQL/mid_bootcamp_project.sql).
 
 - 2 - We used [Tableau](url) to get some graphs to better understand how the data is set. 
 
