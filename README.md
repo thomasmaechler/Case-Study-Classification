@@ -82,7 +82,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
 
 - **Database**: MySQLWorkbench 
 
-- **Vizualizations**: Tableau / Seaborn / matplotlib
+- **Vizualizations**: [Tableau](https://public.tableau.com/authoring/Case-Study-Classification_16369900928240/Dashboard1#1) / Seaborn / matplotlib
 
 - **Code**: Jupyter Notebook
 
