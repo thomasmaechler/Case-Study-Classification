@@ -96,12 +96,12 @@ We want to be able to predict which client will **accept** credit card offers. ð
 
 
 
-## Useful Links and Notes
+## Useful Links about This Repo
 
-I added the Bank database for whom want to dive into it.
+You can find the data used [here](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/Data%20Sources)
 
-[PDF tableau](https://public.tableau.com/app/profile/thomas.maechler/viz/Case-Study-Classification_16369900928240/Dashboard1)
+[This](https://public.tableau.com/app/profile/thomas.maechler/viz/Case-Study-Classification_16369900928240/Dashboard1) leads you to the Tableau public workbook and the dashboard we created to get some insight about the data.
 
-[SQL link](url)
+[This folder](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/SQL) is dedicated for **SQL** part of this project.
 
 This is our [jupyter notebook](url) for detailed explanations and the code itself.
