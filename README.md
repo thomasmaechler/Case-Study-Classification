@@ -61,6 +61,8 @@ We want to be able to predict which client will **accept** credit card offers. ð
   - We removed 'customer number' as it is quite irrelevant. 
   - We converted some numerical columns into categorical since they are too discrete in a restricted range.
   - We checked correlations between numerical columns, and noticed that they are highly correlated. Because of that, we also checked out variation inflation factors(VIFs) for those columns to go further. 
+ <img width="525" alt="Screenshot 2021-11-18 at 15 01 47" src="https://user-images.githubusercontent.com/90766942/142429714-93170daf-d742-4ce7-88d6-410250e44873.png">
+
   - Then we decided to remove some of them to keep VIFs in acceptable range (1-5).
   - We tried a lot of different combination of categorical columns, at the end decided to remove 'no_of_bank_accounts_open', 'q2_balance',  'q3_balance', 'q4_balance', 'no_of_homes_owned', 'no_of_credit_cards_held', 'household_size'.
   - When we were on dealing the outliers part, a dilemma came out. If we removed the outliers, it would diminish our minority class even more. 
@@ -71,6 +73,8 @@ We want to be able to predict which client will **accept** credit card offers. ð
   - After Concatanating scaled numerical columns and now-numeric categorical columns, we were ready to apply some models.
   - We applied five models on with/without outliers. As it was an imbalanced data, we had to implement sampling methods.
     * Model 1: Logistic Regression
+
+
     * Model 2: Logistic Regression + SMOTE
     * Model 3: Logistic Regression + Tomek Links
     * Model 4: Logistic Regression + SMOTE + Tomek Links 
