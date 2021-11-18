@@ -51,6 +51,9 @@ We want to be able to predict which client will **accept** credit card offers. ð
 
 - 3 - After understanding better how the data looks like, we started to manipulate the data in Python through this process: 
 
+<img width="461" alt="Screenshot 2021-11-18 at 14 56 12" src="https://user-images.githubusercontent.com/90766942/142428776-2e0dd4b0-d0a8-4b8f-9606-54d19facf517.png">
+
+
   - After we read our data in **Python**, as we had already seen in **Tableau**, it was an imbalanced data so it was noted that we had to be careful about minority class.
   - Then started to exploratory data analysis (EDA). 
   - First standardized column names were obtained to make coding easier later.
@@ -58,6 +61,8 @@ We want to be able to predict which client will **accept** credit card offers. ð
   - We removed 'customer number' as it is quite irrelevant. 
   - We converted some numerical columns into categorical since they are too discrete in a restricted range.
   - We checked correlations between numerical columns, and noticed that they are highly correlated. Because of that, we also checked out variation inflation factors(VIFs) for those columns to go further. 
+ <img width="525" alt="Screenshot 2021-11-18 at 15 01 47" src="https://user-images.githubusercontent.com/90766942/142429714-93170daf-d742-4ce7-88d6-410250e44873.png">
+
   - Then we decided to remove some of them to keep VIFs in acceptable range (1-5).
   - We tried a lot of different combination of categorical columns, at the end decided to remove 'no_of_bank_accounts_open', 'q2_balance',  'q3_balance', 'q4_balance', 'no_of_homes_owned', 'no_of_credit_cards_held', 'household_size'.
   - When we were on dealing the outliers part, a dilemma came out. If we removed the outliers, it would diminish our minority class even more. 
@@ -68,6 +73,8 @@ We want to be able to predict which client will **accept** credit card offers. ð
   - After Concatanating scaled numerical columns and now-numeric categorical columns, we were ready to apply some models.
   - We applied five models on with/without outliers. As it was an imbalanced data, we had to implement sampling methods.
     * Model 1: Logistic Regression
+
+
     * Model 2: Logistic Regression + SMOTE
     * Model 3: Logistic Regression + Tomek Links
     * Model 4: Logistic Regression + SMOTE + Tomek Links 
@@ -80,9 +87,9 @@ We want to be able to predict which client will **accept** credit card offers. ð
 ## Tools 
 
 
-- **Database**: MySQLWorkbench 
+- **Database**: [MySQLWorkbench](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/SQL) 
 
-- **Vizualizations**: Tableau / Seaborn / matplotlib
+- **Vizualizations**: [Tableau](https://public.tableau.com/authoring/Case-Study-Classification_16369900928240/Dashboard1#1) / Seaborn / matplotlib
 
 - **Code**: Jupyter Notebook
 
