@@ -80,7 +80,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
 ## Tools 
 
 
-- **Database**: MySQLWorkbench 
+- **Database**: [MySQLWorkbench](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/SQL) 
 
 - **Vizualizations**: [Tableau](https://public.tableau.com/authoring/Case-Study-Classification_16369900928240/Dashboard1#1) / Seaborn / matplotlib
 
