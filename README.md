@@ -83,7 +83,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
     
    * Model 3: Logistic Regression + Tomek Links
     
-    <img width="364" alt="Screenshot 2021-11-18 at 16 01 42" src="https://user-images.githubusercontent.com/90766942/142440376-95e08255-7379-4aaa-942e-6f73ff3b45b6.png">
+   <img width="364" alt="Screenshot 2021-11-18 at 16 01 42" src="https://user-images.githubusercontent.com/90766942/142440376-95e08255-7379-4aaa-942e-6f73ff3b45b6.png">
 
     
   * Model 4: Logistic Regression + SMOTE + Tomek Links 
@@ -94,7 +94,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
 
    * Model 5: Logistic Regression + KNN Classifier
     
-    <img width="369" alt="Screenshot 2021-11-18 at 16 02 27" src="https://user-images.githubusercontent.com/90766942/142440498-19415d03-038f-45b0-975c-09a087443319.png">
+   <img width="369" alt="Screenshot 2021-11-18 at 16 02 27" src="https://user-images.githubusercontent.com/90766942/142440498-19415d03-038f-45b0-975c-09a087443319.png">
 
  - We evaluated the results by looking at confusion matrix, AUC scores and F1 scores to decide which model would be the best at predicting offer responses.
 
