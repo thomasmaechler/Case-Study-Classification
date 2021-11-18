@@ -25,7 +25,7 @@ We want to be able to predict which client will accept credit card offers. ðŸ“ˆð
 
 ## Project Brief
 
-Scenario: We are working as a risk analyst with a bank. Apart from the other banking and loan services, the bank also provides credit card services that are a very important source of revenue for the bank. The bank wants to understand the demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card.
+*Scenario*: We are working as a risk analyst with a bank. Apart from the other banking and loan services, the bank also provides credit card services that are a very important source of revenue for the bank. The bank wants to understand the demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card.
 
 
 Objective: Build a model that will provide insight into why some bank customers accept credit card offers. There are also other potential areas of opportunities that the bank wants to understand from the data.
@@ -41,7 +41,7 @@ Features: Customer Number | Offer Accepted | Mailer Type | Income Level | Bank A
 
 
 
-##Process: 
+## Process: 
 
 
 1 - We tried to visualize how the data looks like in [SQL Workbench](url).
