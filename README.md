@@ -19,7 +19,6 @@ We want to be able to predict which client will **accept** credit card offers. ð
 - [Data](https://github.com/thomasmaechler/Case-Study-Classification#Data)
 - [Process](https://github.com/thomasmaechler/Case-Study-Classification#Process)
 - [Tools](https://github.com/thomasmaechler/Case-Study-Classification#Tools)
-- [Next Step](https://github.com/thomasmaechler/Case-Study-Classification#Tools)
 - [Key Take Aways](https://github.com/thomasmaechler/Case-Study-Classification#Key-Take-Aways)
 
 
@@ -86,13 +85,6 @@ We want to be able to predict which client will **accept** credit card offers. ð
 - **Vizualizations**: Tableau / Seaborn / matplotlib
 
 - **Code**: Jupyter Notebook
-
-
-## Next Steps
-
-
-- We could have add some data or features to improve the model
-- Maybe using different other model 
 
 
 
