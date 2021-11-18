@@ -104,4 +104,6 @@ You can find the data that we tried to analyze [here](https://github.com/thomasm
 
 [This folder](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/SQL) is dedicated for **SQL** part of this project.
 
-This is our [jupyter notebook](url) for detailed explanations and the code itself.
+[Here](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/Jupyter%20Notebooks) we collected our jupyter notebooks, feel free to work on them.
+
+Thank you for checking our repo.
