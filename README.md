@@ -6,7 +6,7 @@ by Ümmühan Demir and Thomas Maechler November 2021
 
 We want to be able to predict which client will **accept** credit card offers. 📈💰💸
 
-![Picture](banking-project.jpeg)
+![Picture](images/banking-project.jpeg)
 
 
 
