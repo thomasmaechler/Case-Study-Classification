@@ -64,7 +64,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
   - When we were on dealing the outliers part, a dilemma came out. If we removed the outliers, it would diminish our minority class even more. 
   - Because of that we created two jupyter notebooks, with and without outliers, to see the effect of them.
   - As we suspected, we get a bit worse results without outliers.
-  - Then we continued with the preprocessing numerical and categorical columns. We used **Normalizer(), **StandardScaler()** and **MinMaxScaler** to scale numerical columns and tried all of them for our models to see which one will give us better accuracy scores. We decided to go with **Normalizer** with outliers, and **MinMaxScaler** without outliers.
+  - Then we continued with the preprocessing numerical and categorical columns. We used **Normalizer()**, **StandardScaler()** and **MinMaxScaler** to scale numerical columns and tried all of them for our models to see which one will give us better accuracy scores. We decided to go with **Normalizer** with outliers, and **MinMaxScaler** without outliers.
   - Categorical columns converted into numerical by using **pd.get_dummies()**. 
   - After Concatanating scaled numerical columns and now-numeric categorical columns, we were ready to apply some models.
   - We applied five models on with/without outliers. As it was an imbalanced data, we had to implement sampling methods.
