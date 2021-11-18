@@ -85,6 +85,9 @@ We want to be able to predict which client will **accept** credit card offers. ð
 ## Useful Links and Notes
 
 I added the Bank database for whom want to dive into it.
+
 [PDF tableau](url)
+
 [SQL link](url)
+
 This is our [jupyter notebook](url) for detailed explanations and the code itself.
