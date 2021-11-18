@@ -1,4 +1,5 @@
 # Case-Study-Classification
+
 Mid-Bootcamp-Project
 
 by ÃœmmÃ¼han Demir and Thomas Maechler November 2021
@@ -25,6 +26,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
 
 ## Project Brief
 
+
 **Scenario**: We are working as a risk analyst with a bank. Apart from the other banking and loan services, the bank also provides credit card services that are a very important source of revenue for the bank. The bank wants to understand the demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card.
 
 
@@ -33,6 +35,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
 
 
 ## Data 
+
 
 **The data set**: 18,000 current bank customers in the study. 
 
@@ -50,6 +53,8 @@ We want to be able to predict which client will **accept** credit card offers. ð
 
 - 3 - After understanding better how the data looks like, we started to manipulate the data in python thru this process: 
 
+
+
 - 3.1 - We tried to query the most relevant data out of Sakila on MySql workbench.
 
 - 3.2 - After creating dataframe, to gain deeper insight into it I did some explorations, and plottings of correlation matrix. The last one is particularl  important for us as it is a signal of multicollinearity.
@@ -62,12 +67,16 @@ We want to be able to predict which client will **accept** credit card offers. ð
   
 ## Tools 
 
+
 **Database**: MySQLWorkbench 
+
 **Vizualizations**: Tableau / Seaborn / matplotlib
+
 **Code**: Jupyter Notebook
 
 
 ## Next Steps
+
 
 - We could have add some data or features to improve the model
 - Maybe using different other model 
