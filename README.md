@@ -71,6 +71,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
   - Categorical columns converted into numerical by using **pd.get_dummies()**. 
   - After Concatanating scaled numerical columns and now-numeric categorical columns, we were ready to apply some models.
   - We applied five models on with/without outliers. As it was an imbalanced data, we had to implement sampling methods.
+  
     * Model 1: Logistic Regression
     
 <img width="376" alt="Screenshot 2021-11-18 at 15 59 26" src="https://user-images.githubusercontent.com/90766942/142440217-e03a01e0-c683-4416-9809-50d41c7290cd.png">
@@ -90,7 +91,8 @@ We want to be able to predict which client will **accept** credit card offers. ð
     
     <img width="374" alt="Screenshot 2021-11-18 at 16 02 13" src="https://user-images.githubusercontent.com/90766942/142440461-95e45151-b73b-4cc6-b20a-00be4481b28b.png">
 
-    
+    ![Uploading Screenshot 2021-11-18 at 15.59.26.pngâ€¦]()
+
     * Model 5: Logistic Regression + KNN Classifier
     
     <img width="369" alt="Screenshot 2021-11-18 at 16 02 27" src="https://user-images.githubusercontent.com/90766942/142440498-19415d03-038f-45b0-975c-09a087443319.png">
