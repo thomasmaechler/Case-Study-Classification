@@ -19,7 +19,6 @@ We want to be able to predict which client will **accept** credit card offers. ð
 - [Data](https://github.com/thomasmaechler/Case-Study-Classification#Data)
 - [Process](https://github.com/thomasmaechler/Case-Study-Classification#Process)
 - [Tools](https://github.com/thomasmaechler/Case-Study-Classification#Tools)
-- [Next Step](https://github.com/thomasmaechler/Case-Study-Classification#Tools)
 - [Key Take Aways](https://github.com/thomasmaechler/Case-Study-Classification#Key-Take-Aways)
 
 
@@ -88,20 +87,15 @@ We want to be able to predict which client will **accept** credit card offers. ð
 - **Code**: Jupyter Notebook
 
 
-## Next Steps
-
-
-- We could have add some data or features to improve the model
-- Maybe using different other model 
-
-
 
 ## Useful Links about This Repo
 
-You can find the data used [here](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/Data%20Sources)
+You can find the data that we tried to analyze [here](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/Data%20Sources)
 
 [This](https://public.tableau.com/app/profile/thomas.maechler/viz/Case-Study-Classification_16369900928240/Dashboard1) leads you to the Tableau public workbook and the dashboard we created to get some insight about the data.
 
 [This folder](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/SQL) is dedicated for **SQL** part of this project.
 
-This is our [jupyter notebook](url) for detailed explanations and the code itself.
+[Here](https://github.com/thomasmaechler/Case-Study-Classification/tree/main/Jupyter%20Notebooks) we collected our jupyter notebooks, feel free to work on them.
+
+Thank you for checking our repo.
