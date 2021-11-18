@@ -72,30 +72,26 @@ We want to be able to predict which client will **accept** credit card offers. ð
                           
       * Model 1: Logistic Regression
     
-       <img width="376" alt="Screenshot 2021-11-18 at 15 59 26" src="https://user-images.githubusercontent.com/90766942/142440217-e03a01e0-c683-4416-9809-50d41c7290cd.png">              <img width="311" alt="Screenshot 2021-11-18 at 16 08 36" src="https://user-images.githubusercontent.com/90766942/142441642-0c8cdb0f-9153-412a-8f54-56d5a6b712fd.png">
+       <img width="376" alt="Screenshot 2021-11-18 at 15 59 26" src="https://user-images.githubusercontent.com/90766942/142440217-e03a01e0-c683-4416-9809-50d41c7290cd.png">      
 
 
 
        * Model 2: Logistic Regression + SMOTE
     
-          <img width="372" alt="Screenshot 2021-11-18 at 16 01 16" src="https://user-images.githubusercontent.com/90766942/142440282-ff7d2440-e8a5-4bb8-9437-cba8ff35424c.png">      <img width="305" alt="Screenshot 2021-11-18 at 16 09 05" src="https://user-images.githubusercontent.com/90766942/142441695-4b618422-bbba-4824-985c-d8357ece4926.png">
-         
+          <img width="372" alt="Screenshot 2021-11-18 at 16 01 16" src="https://user-images.githubusercontent.com/90766942/142440282-ff7d2440-e8a5-4bb8-9437-cba8ff35424c.png">    
     
        * Model 3: Logistic Regression + Tomek Links
     
-                                                                                                                                                                               <img width="364" alt="Screenshot 2021-11-18 at 16 01 42" src="https://user-images.githubusercontent.com/90766942/142440376-95e08255-7379-4aaa-942e-6f73ff3b45b6.png"> <img width="301" alt="Screenshot 2021-11-18 at 16 09 21" src="https://user-images.githubusercontent.com/90766942/142441757-1e9faaf0-e68d-4b44-b2d5-091d6b1bf64a.png">
+           <img width="364" alt="Screenshot 2021-11-18 at 16 01 42" src="https://user-images.githubusercontent.com/90766942/142440376-95e08255-7379-4aaa-942e-6f73ff3b45b6.png"> 
 
-
+    * Model 4: Logistic Regression + SMOTE + Tomek Links 
     
-     * Model 4: Logistic Regression + SMOTE + Tomek Links 
-    
-    <img width="374" alt="Screenshot 2021-11-18 at 16 02 13" src="https://user-images.githubusercontent.com/90766942/142440461-95e45151-b73b-4cc6-b20a-00be4481b28b.png">.    <img width="303" alt="Screenshot 2021-11-18 at 16 09 38" src="https://user-images.githubusercontent.com/90766942/142441794-8b4e3190-5a98-45d2-b655-dd447a57363d.png">
+    <img width="374" alt="Screenshot 2021-11-18 at 16 02 13" src="https://user-images.githubusercontent.com/90766942/142440461-95e45151-b73b-4cc6-b20a-00be4481b28b.png"> 
 
 
       * Model 5: Logistic Regression + KNN Classifier
     
    <img width="369" alt="Screenshot 2021-11-18 at 16 02 27" src="https://user-images.githubusercontent.com/90766942/142440498-19415d03-038f-45b0-975c-09a087443319.png">
-<img width="300" alt="Screenshot 2021-11-18 at 16 10 10" src="https://user-images.githubusercontent.com/90766942/142441885-0fea21cd-6c0d-44ba-8331-f81f1608707a.png">
 
 
  - We evaluated the results by looking at confusion matrix, AUC scores and F1 scores to decide which model would be the best at predicting offer responses.
