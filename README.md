@@ -44,19 +44,19 @@ We want to be able to predict which client will **accept** credit card offers. ð
 ## Process: 
 
 
-- 1 We tried to visualize how the data looks like in [SQL Workbench](url).
+- 1 - We tried to visualize how the data looks like in [SQL Workbench](url).
 
-- 2 We used [Tableau](url) to get some graphs to better understand how the data is set. 
+- 2 - We used [Tableau](url) to get some graphs to better understand how the data is set. 
 
-- 3 After understanding better how the data looks like, we started to manipulate the data in python thru this process: 
+- 3 - After understanding better how the data looks like, we started to manipulate the data in python thru this process: 
 
-- 3.1 We tried to query the most relevant data out of Sakila on MySql workbench.
+- 3.1 - We tried to query the most relevant data out of Sakila on MySql workbench.
 
-- 3.2 After creating dataframe, to gain deeper insight into it I did some explorations, and plottings of correlation matrix. The last one is particularl  important for us as it is a signal of multicollinearity.
+- 3.2 - After creating dataframe, to gain deeper insight into it I did some explorations, and plottings of correlation matrix. The last one is particularl  important for us as it is a signal of multicollinearity.
 
-- 3.3 The following plots show numerical columns just to give some idea before preprocessing, after Normalizer() applied and after (name) applied, respectively. You can find the code for these in the link below.
+- 3.3 - The following plots show numerical columns just to give some idea before preprocessing, after Normalizer() applied and after (name) applied, respectively. You can find the code for these in the link below.
 
-- 3.4 
+- 3.4 -
 
 
   
