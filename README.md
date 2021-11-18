@@ -39,7 +39,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
 
 **The data set**: 18,000 current bank customers in the study. 
 
-**Features**: Customer Number | Offer Accepted | Mailer Type | Income Level | Bank Accounts Open | Overdraft Protection | Credit Rating  | Credit Cards Held | Homes Owned | Household Size | Own Your Home | Average Balance | Balance | Q1 Balance | Q2 Balance | Q3 Balance | Q4 Balance
+**Features**: Customer Number | Offer Accepted | Mailer Type | Income Level | Bank Accounts Open | Overdraft Protection | Credit Rating  | Credit Cards Held | Homes Owned | Household Size | Own Your Home | Average Balance | Q1 Balance | Q2 Balance | Q3 Balance | Q4 Balance
 
 
 
@@ -48,7 +48,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
 
 - 1 - We tried to visualize how the data looks like in [SQL Workbench](https://github.com/thomasmaechler/Case-Study-Classification/blob/main/SQL/mid_bootcamp_project.sql).
 
-- 2 - We used [Tableau](url) to get some graphs to better understand how the data is set. We noticed that we had the imbalance data problem.
+- 2 - We used [Tableau](https://public.tableau.com/app/profile/thomas.maechler/viz/Case-Study-Classification_16369900928240/Dashboard1) to get some graphs to better understand how the data is set. We noticed that we had the imbalance data problem.
 
 - 3 - After understanding better how the data looks like, we started to manipulate the data in Python through this process: 
 
@@ -73,7 +73,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
     -- Model 3: Logistic Regression + Tomek Links
     -- Model 4: Logistic Regression + SMOTE + Tomek Links 
     -- Model 5: Logistic Regression + KNN Classifier
- - We evaluated the results by looking at confusion matrix, AUC scores and F1 scores to decide which model would be best at predicting.
+ - We evaluated the results by looking at confusion matrix, AUC scores and F1 scores to decide which model would be the best at predicting offer responses.
 
   
   
@@ -100,7 +100,7 @@ We want to be able to predict which client will **accept** credit card offers. ð
 
 I added the Bank database for whom want to dive into it.
 
-[PDF tableau](url)
+[PDF tableau](https://public.tableau.com/app/profile/thomas.maechler/viz/Case-Study-Classification_16369900928240/Dashboard1)
 
 [SQL link](url)
 
